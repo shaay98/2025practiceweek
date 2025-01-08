@@ -1,12 +1,17 @@
 "use strict"
 
+let numbers = [100, 456, 98, 45, 43, 73]
 
-let age prompt("Enter your age")
+console.log(numbers)
 
-if age >=18 {
-    alert Welcome to my favorite movie site.
-} else if age <18 {
-    alert You must be at least 18 years or older to enter site.
+ 
+for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+ if (element % 2 == 0) {
+ console.log(element)
+ }
+ 
 }
+
 
 
