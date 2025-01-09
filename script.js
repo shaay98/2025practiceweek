@@ -1,6 +1,6 @@
 "use strict";
 
-let numbers = document.getElementById(numbers);
+let numbers = document.getElementById("numbers");
 
 console.log(numbers);
 
